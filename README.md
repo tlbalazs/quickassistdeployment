@@ -1,11 +1,11 @@
 # Quick Assist deployment via Group Policy Startup Script
-I inspired by DroidKid's script that i found on his blog. Original script located here: https://droidkid.net/2022/05/17/using-intune-to-deploy-the-new-microsoft-quick-assist/
+I was inspired by DroidKid's script that i found on his blog. Original script is located here: https://droidkid.net/2022/05/17/using-intune-to-deploy-the-new-microsoft-quick-assist/
 
 1. I downloaded the Quick Assist application bundle installer from the organization's Private Store (Microsoft Store for Business). 
 2. I placed this installer on a shared location on a server.
 3. The script located on a share as well.
 4. I created a Group Policy for the script: Computer Configuration -> Policies -> Windows Settings -> Scripts -> Startup -> PowerShell Scripts
-5. Add inherited permission for Domain Computers on the folder where you store your logs to able the computers creates or removes folders and writes logs
+5. Add inherited permission for Domain Computers on the folder where you store your logs to able the computers create or remove folders and write logs
 
 Note: Dont use FQDN when running PowerShell on Startup script because it is broke the running by PowerShell Restriction Policies. Instead of FQDN use the share's full UNC path.
 
