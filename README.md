@@ -1,6 +1,5 @@
 # quickassistdeployment
-
-I inspired by DroidKid's script when i wrote this. Original script located here: https://droidkid.net/2022/05/17/using-intune-to-deploy-the-new-microsoft-quick-assist/
+I inspired by DroidKid's script that i found on his blog. Original script located here: https://droidkid.net/2022/05/17/using-intune-to-deploy-the-new-microsoft-quick-assist/
 
 1. I downloaded the Quick Assist application bundle installer from the organization's Private Store (Microsoft Store for Business). 
 2. I placed this installer on a shared location in a server.
