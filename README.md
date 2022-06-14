@@ -1,4 +1,4 @@
-# quickassistdeployment
+# Quick Assist deployment via Group Policy Startup Script
 I inspired by DroidKid's script that i found on his blog. Original script located here: https://droidkid.net/2022/05/17/using-intune-to-deploy-the-new-microsoft-quick-assist/
 
 1. I downloaded the Quick Assist application bundle installer from the organization's Private Store (Microsoft Store for Business). 
