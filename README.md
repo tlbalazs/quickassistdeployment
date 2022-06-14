@@ -5,7 +5,7 @@ I inspired by DroidKid's script that i found on his blog. Original script locate
 2. I placed this installer on a shared location on a server.
 3. The script located on a share as well.
 4. I created a Group Policy for the script: Computer Configuration -> Policies -> Windows Settings -> Scripts -> Startup -> PowerShell Scripts
-5. Add inherited permission for Domain Computers on the folder where you store your logs to able the computers creates or removes folders and write logs
+5. Add inherited permission for Domain Computers on the folder where you store your logs to able the computers creates or removes folders and writes logs
 
 Note: Dont use FQDN when running PowerShell on Startup script because it is broke the running by PowerShell Restriction Policies. Instead of FQDN use the share's full UNC path.
 
