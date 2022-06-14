@@ -6,7 +6,8 @@ I inspired by DroidKid's script that i found on his blog. Original script locate
 3. The script located on a share as well.
 4. I created a Group Policy for the script: Computer Configuration -> Policies -> Windows Settings -> Scripts -> Startup -> PowerShell Scripts
 
-<WRAP info>Note: Dont use FQDN when running PowerShell on Startup script because it is broke the running by PowerShell Restriction Policies. Instead of FQDN use the share's full UNC path.
+<WRAP info>
+Note: Dont use FQDN when running PowerShell on Startup script because it is broke the running by PowerShell Restriction Policies. Instead of FQDN use the share's full UNC path.
 </WRAP>
 
 **Functions in Script**
