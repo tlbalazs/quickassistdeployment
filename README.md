@@ -26,4 +26,10 @@ Removes the logs that older than 90 days and calls the RemoveLog() function to w
 function RemoveLog() \
 Logging the success and failed remove attempts in a txt file.
 
+Main \
+-Install parameter: installs the new version of Quick Assist and removes the older one \
+-Uninstall parameter: uninstalls the old version of Quick Assist \
+-Removes the logs that older than 90 days \
+-Detects the installs state of Quick Assist and logging into a txt
+
 Feel free to use it, just replace the "SERVERNAME" in the code with your own server.
