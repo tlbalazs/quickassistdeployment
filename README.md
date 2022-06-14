@@ -11,17 +11,17 @@ Note: Dont use FQDN when running PowerShell on Startup script because it is brok
 
 **Functions in Script**
 
-function MakeLogFolder() 
+function MakeLogFolder() \
 Create a folder at every day for the new logs and the folder name is the current date.
 
-function LogOutput($Message) 
+function LogOutput($Message) \
 Create a txt log file for every PC and logging the installation methods. The filename contains the computername. 
 
-function InstallLogOutput($Message) 
+function InstallLogOutput($Message) \
 Logging all computer install states to one txt file. Contains date, computername, install state, installed version. Works great with Excel to filter data.
 
-function RemoveOldLogs()
+function RemoveOldLogs() \
 Removes the logs that older than 90 days and calls the RemoveLog() function to write its successness to a txt file.
 
-function RemoveLog() 
+function RemoveLog() \
 Logging the success and failed remove attempts in a txt file.
