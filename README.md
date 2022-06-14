@@ -31,6 +31,6 @@ Main \
 -Install parameter: installs the new version of Quick Assist and removes the older one \
 -Uninstall parameter: uninstalls the old version of Quick Assist \
 -Removes the logs that older than 90 days \
--Detects the installs state of Quick Assist and logs into a txt
+-Detects the install state of Quick Assist and logs into a txt
 
 Feel free to use it, just replace the "SERVERNAME" in the code with your own server.
