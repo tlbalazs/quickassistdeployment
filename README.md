@@ -26,4 +26,4 @@ Removes the logs that older than 90 days and calls the RemoveLog() function to w
 function RemoveLog() \
 Logging the success and failed remove attempts in a txt file.
 
-Feel free to use it, just replace the "SERVERNAME" with your own server.
+Feel free to use it, just replace the "SERVERNAME" in the code with your own server.
