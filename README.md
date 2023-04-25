@@ -1,4 +1,7 @@
 # Quick Assist deployment via Group Policy Startup Script
+
+UPDATE: Microsoft brings back the original Quick Access funcionality with the 2022 December Cumulative Update. This script no longer needed to install the Quick Access application.
+
 I was inspired by DroidKid's script that I found on his blog. Original script is located here: https://droidkid.net/2022/05/17/using-intune-to-deploy-the-new-microsoft-quick-assist/
 
 1. I downloaded the Quick Assist application bundle installer from the organization's Private Store (Microsoft Store for Business). 
